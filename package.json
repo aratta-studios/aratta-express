@@ -1,0 +1,25 @@
+{
+  "name": "@aratta-studios/aratta-express",
+  "version": "0.0.1",
+  "description": "A CLI to bootstrap express project",
+  "main": "src/index.js",
+  "bin": {
+    "@aratta-studios/aratta-express": "bin/aratta-express",
+    "create-project": "bin/aratta-express"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "cli",
+    "aratta-express"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "esm": "^3.2.25"
+  }
+}
